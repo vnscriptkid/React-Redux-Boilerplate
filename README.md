@@ -15,7 +15,8 @@
 
 #### Reducers
 
-- Define a type that is union of all related actions to do type checks for reducers
+- Define a `type` that is union of all related actions to do type checks for reducers
+  > export type TodoAction = DeleteTodoAction | FetchTodosAction;
 
 #### Typescript
 
